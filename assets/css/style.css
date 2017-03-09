@@ -26,35 +26,98 @@ The sidebar is 270px wide.
 body {
 	margin: 0;
 	padding: 0;
-	background: url("http://i.imgur.com/PGeDk4Z.png") repeat;
+	background: url("http://i.imgur.com/PGeDk4Z.png") repeat #4aaaa5;
 	background-attachment: fixed;
+	color: #777777;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
 }
 
-header {}
+header {
+	background: #ffffff;
+	border-collapse: collapse;
+	border-color: #cccccc;
+	padding: 20px;
+}
+
+nav {
+	padding: 20px;
+	display: inline;
+}
 
 section {
 	width: 650px;
+	background: #ffffff;
+	border-collapse: collapse;
+	border-color: #dddddd;
 }
 
 aside {
 	width: 270px;
+	float: left;
+	background: #ffffff;
+	text-align: center;
 }
 
-form {}
+form {
+	width: 650px;
+	background: #ffffff;
+	border-collapse: collapse;
+	border-color: #dddddd;
+}
 
+footer {
+	background: #666666;
+	clear: both;
+}
 
+h1, h2, h3 {
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	padding: 20px;
+}
 
+h1 {
+	background: #4aaaa5;
+	height: auto;
+	width: auto;
+	font-size: 24px;
+	font-weight: 700;
+	color: #ffffff;
+	display: inline;
+	float: left;
+}
 
+p {
+	padding: 5px;
+}
 
+.abtme {
+	float: left;
+	padding: 20px;
+}
 
+.mypic {
+	float: left;
+	height: 200px;
+	width: 300px;
+	padding: 20px;
+}
 
-.abtme
+.folio {
+	float: left;
+	padding: 20px;
+}
 
-.mypic
+.foliolabel {
+	clear: both;
+	background: #4aaaa5;
+	padding: 5px;
+}
 
-.folio
-
-.foliolabel
-
-.icon
+.icon {
+	clear: both;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
 
