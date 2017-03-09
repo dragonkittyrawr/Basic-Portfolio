@@ -33,6 +33,30 @@ body {
 	font-size: 14px;
 }
 
+a {
+	color: #96999F;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+hr {
+	color: #96999F;
+}
+
 header {
 	background: #ffffff;
 	border-collapse: collapse;
@@ -45,6 +69,7 @@ nav {
 	padding: 20px;
 	float: left;
 	display: inline;
+	margin-left: 38%;
 }
 
 section {
@@ -56,7 +81,8 @@ section {
 }
 
 aside {
-	width: 270px;
+	width: 250px;
+	padding: 0px 10px;
 	float: left;
 	background: #ffffff;
 	text-align: center;
@@ -76,7 +102,15 @@ form {
 footer {
 	background: #666666;
 	clear: both;
+	width: 100%;
 	margin-top: 10px;
+	overflow: auto;
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	color: #96999F;
+
 }
 
 h1, h2, h3 {
@@ -109,7 +143,7 @@ h3 {
 }
 
 p {
-	padding: 5px;
+	padding: 10px;
 }
 
 section {
@@ -129,7 +163,7 @@ section {
 	float: left;
 	height: 200px;
 	width: 300px;
-	padding: 20px;
+	padding: 10px;
 }
 
 .folio {
