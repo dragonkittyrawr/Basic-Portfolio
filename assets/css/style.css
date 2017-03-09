@@ -37,11 +37,13 @@ header {
 	background: #ffffff;
 	border-collapse: collapse;
 	border-color: #cccccc;
-	padding: 20px;
+	overflow: auto;
+	margin-bottom: 20px;
 }
 
 nav {
 	padding: 20px;
+	float: left;
 	display: inline;
 }
 
@@ -50,6 +52,7 @@ section {
 	background: #ffffff;
 	border-collapse: collapse;
 	border-color: #dddddd;
+	margin-bottom: 20px;
 }
 
 aside {
@@ -57,6 +60,9 @@ aside {
 	float: left;
 	background: #ffffff;
 	text-align: center;
+	display: inline;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 
 form {
@@ -64,11 +70,13 @@ form {
 	background: #ffffff;
 	border-collapse: collapse;
 	border-color: #dddddd;
+	margin-bottom: 20px;
 }
 
 footer {
 	background: #666666;
 	clear: both;
+	margin-top: 10px;
 }
 
 h1, h2, h3 {
@@ -78,22 +86,43 @@ h1, h2, h3 {
 
 h1 {
 	background: #4aaaa5;
-	height: auto;
-	width: auto;
-	font-size: 24px;
+	font-size: 200%;
 	font-weight: 700;
 	color: #ffffff;
 	display: inline;
 	float: left;
+	margin-left: 10%;
+}
+
+h2, h3 {
+	color: #4aaaa5;
+}
+
+h2 {
+	font-size: 175%;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 150%;
+	font-weight: 600;
 }
 
 p {
 	padding: 5px;
 }
 
-.abtme {
-	float: left;
+section {
 	padding: 20px;
+	clear: both;
+	float: left;
+	margin-left: 10%;
+}
+
+.abtme {
+	clear: both;
+	padding: 20px;
+	display: inline;
 }
 
 .mypic {
